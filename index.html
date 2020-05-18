@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Videos</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <script>
+            window.addEventListener('load',function(){
+                cargar();
+            })
+        </script>
+    </head>
+    <body>
+        <div class="div">
+            <video autoplay id='video'></video>
+        </div>
+
+        <div class="div">
+            <input id="bGravar" type='button' value="Grabar" class="bLeft">
+            <input id="bParar" type='button' value="Parar" >
+            <a id="bDescargar" href="#" download=""><input type="button" value="Descargar"></a>
+        </div>
+    </body>
+</html>
